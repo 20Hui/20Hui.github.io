@@ -1,0 +1,25 @@
+<br>
+<h4 align="left">「欢迎留言哟」：</h4>
+<div id="comments"></div>
+<!--Leancloud 操作库:-->
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<!--Valine 的核心代码库:-->
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<!-- or set latest -->
+<script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+    <script>
+         new Valine({
+            el: '#comments',
+            app_id: '{{ site.valine.appid }}',
+            app_key: '{{ site.valine.appkey }}',
+            notify: '{{ site.valine.notify }}',
+            verify: '{{ site.valine.verify }}',
+            placeholder: '{{ site.valine.placeholder }}',
+            avatar: '{{ site.valine.avatar }}',
+            path: '{{ site.valine.path }}',
+            visitor: '{{ site.valine.visitor }}',
+            recordIP: '{{ site.valine.recordIP }}',
+            visitor: '{{ site.valine.visitor }}',
+            pageSize:  '{{ site.valine.pageSize }}',
+        })
+    </script>

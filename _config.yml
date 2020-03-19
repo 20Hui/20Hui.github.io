@@ -1,0 +1,71 @@
+title: Blog notes
+description: My Personal Blog notes
+author: 20.Cent
+github: https://github.com/20Hui
+about: Record personal blog records at any time, convenient to view and learn at any time.
+google_analytics: UA-159361165-1
+enableTags: true
+tagarray: []
+#评论系统valine
+valine:
+  enable: true
+  appid:  6D0cvIKrSmLMlzwdYywPXugm-gzGzoHsz # your leancloud app id
+  appkey: mwVKaDRWueO1yJWFkPw8Wlkv # your leancloud app key
+  notify: true # 评论回复邮件提醒
+  verify: true # 验证码服务
+  placeholder: 在此处留言哦 # 评论框占位提示符
+  avatar:   # 头像展示方式,空为Gravatar官方图形
+  path: window.location.pathname # 当前文章页路径，用于区分不同的文章页，以保证正确读取该文章页下的评论列表
+  visitor: true #阅读量统计
+  recordIP: true #是否记录评论者IP
+  visitor: true #文章访问量统计
+  pageSize: 6 # 评论列表分页，每页条数
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-facebook
+      link: "#"
+    - icon: fa-twitter
+      link: "https://twitter.com/20cent39175805"
+    - icon: fa-linkedin
+      link: "#"
+    - icon: fa-stack-exchange
+      link: "#"
+    - icon: fa-github
+      link: "https://github.com/20Hui"
+
+share:
+  twitter_username: 20cent
+  fb_appid: 1749788565247320
+
+urls:
+    - text: 标签
+      url: /category/markdown
+    - text: 归类
+      url: /projects/
+    - text: 关于
+      url: /about/
+    - text: XML Feed
+      url: /feed.xml
+
+
+url: "https://www.20cent.cn"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
