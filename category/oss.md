@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
 categories: oss
-title: oSS
+title: Oss
 permalink: /category/oss
 ---
