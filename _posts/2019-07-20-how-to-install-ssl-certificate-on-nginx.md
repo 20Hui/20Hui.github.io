@@ -99,7 +99,7 @@ HS3rjNhHOqLvNnz0OpqxCg0=
 
 #### 2. Put that `BEGIN CERTIFICATE REQUEST` into your SSL Provider
 
-![csr config](https://raw.githubusercontent.com/agusmakmun/agusmakmun.github.io/master/static/img/_posts/csr.png)
+![csr config](/static/img/posts/csr.png)
 
 - For example, I using rumahweb provider.
 - Choose domain validation _(in this method, you can using email, domain, dns, or etc)_.
@@ -114,7 +114,7 @@ HS3rjNhHOqLvNnz0OpqxCg0=
 <meta name="_globalsign-domain-verification" content="xxxxxxx-xxx-xxxx" />
 ```
 
-![ssl validation](https://raw.githubusercontent.com/20hui/20hui.github.io/master/static/img/_posts/ssl1.png)
+![ssl validation](/static/img/posts/ssl1.png)
 
 ```
 ubuntu@ip-xxx-xx-x-xxx:~$ cd /var/www/html/
@@ -132,7 +132,7 @@ ubuntu@ip-xxx-xx-x-xxx:/var/www/html$
 Finally, after domain validation was configured after waiting a configuration,
 the SSL Provider will provide you the some keys, eg: `rootCert`, `interCert`, `X509Cert` and etc.
 
-![ssl information](https://raw.githubusercontent.com/agusmakmun/agusmakmun.github.io/master/static/img/_posts/ssl2.png)
+![ssl information](/static/img/posts/ssl2.png)
 
 Combine that `X509Cert` and `interCert` as `mydomain.com.crt` file.
 **NOTE: Please put it in order _(1:X509Cert, 2:interCert)_**

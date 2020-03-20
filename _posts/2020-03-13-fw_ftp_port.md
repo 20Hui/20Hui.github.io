@@ -9,7 +9,7 @@ categories: [network]
 
 ### FTP服务器映射需求  
 　　公司项目需求FTP服务器要映射到公网访问，外网映射使用非默认端口(21)8245,防火墙配置了域间策略和NAT端口映射，还是提示无法访问，但内网访问正常，外网访问提示没有权限。  
-![](/static/img/posts/fw_ftp_port/fw_ftp_port01.png)
+![](/static/img/posts/fw_ftp_port/fw_ftp_port01.png)  
 ### 原因分析  
 * 20端口，数据连接端口  
 * 21端口，控制连接端口  
