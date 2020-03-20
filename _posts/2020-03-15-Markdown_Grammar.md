@@ -57,7 +57,7 @@ echo "hell World"
 《[引用](https://book.douban.com/subject/3072490/)》<br />
 css 的大部分语法同样可以在 markdown 上使用，但不同的渲染器渲染出来的 markdown 内容样式也不一样.
 ###  推荐Markdown编辑器
-![](https://raw.githubusercontent.com/20hui/20hui.github.io/master/static/img/_posts/markdown/markdown01.png)
+![](/static/img/posts/markdown/markdown01.png)
 <br />
 
 [Cmd Markdown](https://www.zybuluo.com/cmd/?utm_source=mindstore.io) 作业部落在线 Markdown 编辑器并且有客户端  

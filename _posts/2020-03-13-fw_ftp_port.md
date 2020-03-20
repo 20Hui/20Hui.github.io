@@ -9,13 +9,13 @@ categories: [network]
 
 ### FTP服务器映射需求  
 　　公司项目需求FTP服务器要映射到公网访问，外网映射使用非默认端口(21)8245,防火墙配置了域间策略和NAT端口映射，还是提示无法访问，但内网访问正常，外网访问提示没有权限。  
-![](https://raw.githubusercontent.com/20hui/20hui.github.io/master/static/img/_posts/fw_ftp_port/fw_ftp_port01.png)
+![](/static/img/posts/fw_ftp_port/fw_ftp_port01.png)
 ### 原因分析  
 * 20端口，数据连接端口  
 * 21端口，控制连接端口  
 内网21端口映射到公网端口为8245后，公网连接其实只是使用到了8245端口，数据传输端口，并没有映射出去，所以没有数据传输，所以会报错。  
 <div align="center">
-　　<img src="https://raw.githubusercontent.com/20hui/20hui.github.io/master/static/img/_posts/fw_ftp_port/fw_ftp_port02.png" height="295" width="613" />  
+　　<img src="/static/img/posts/fw_ftp_port/fw_ftp_port02.png" height="295" width="613" />  
 </div>
 ### `完整配置命令`
 
@@ -30,6 +30,6 @@ categories: [network]
 例如，FTP应用由数据连接和控制连接共同完成，而数据连接使用的地址和端口由控制连接协商报文中的载荷信息决定，这就需要ALG利用NAT的相关转换配置来完成载荷信息的转换，以保证后续数据连接的正确建立。
 ```
 <div align="center">
-　　<img src="https://raw.githubusercontent.com/20hui/20hui.github.io/master/static/img/_posts/fw_ftp_port/fw_ftp_port03.png" height="523" width="450" />  
+　　<img src="/static/img/posts/fw_ftp_port/fw_ftp_port03.png" height="523" width="450" />  
 </div>
 转载请注明：[20.Cent的博客](https://www.20cent.cn) » [防火墙NAT映射FTP服务器到公网](https://www.20cent.cn/2020/03/fw_ftp_port)    
