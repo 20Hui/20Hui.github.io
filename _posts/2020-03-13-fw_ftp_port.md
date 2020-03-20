@@ -17,7 +17,7 @@ categories: [network]
 <div align="center">
 　　<img src="/static/img/posts/fw_ftp_port/fw_ftp_port02.png" height="295" width="613" />  
 </div>
-### `完整配置命令`
+### 完整配置命令
 
 ```bash
 #NAT端口上配置内网映射成公网
