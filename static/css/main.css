@@ -118,6 +118,9 @@ div.col-sm-3 div.profile-about {
   text-align: left;
 }
 
+.v .vwrap {
+  border-style : inset;
+}
 /* Social Icons */
 .social{
   display: block;
