@@ -141,6 +141,11 @@ layout: compress
       <div class="col-sm-3">
         <div class="fixed-condition">
           <img src="/static/img/head portrait.jpg" width="200" height="200" />
+          <!-- 网易云音乐插件 start -->
+          {% if page.music-id %}
+              {% include cloud-music.html %}
+          {% endif %}
+          <!-- 网易云音乐插件 end -->
           <h1 class="author-name"><a href="/">{{ site.author }}</a></h1>
           {% if site.about %}
             <div class="profile-about">
