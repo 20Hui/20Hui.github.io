@@ -49,8 +49,8 @@ urls:
       url: /projects/
     - text: 关于
       url: /about/
-  # - text: XML Feed
-  #   url: /feed.xml
+   - text: Feed
+      url: /feed.xml
 
 
 url: "https://www.20cent.cn"
