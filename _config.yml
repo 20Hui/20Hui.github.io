@@ -1,7 +1,7 @@
 title: Blog notes
 description: My Personal Blog notes
 author: 20.Cent
-github: https://github.com/20Hui
+github: https://www.20cent.cn
 about: Record personal blog records at any time, convenient to view and learn at any time.
 google_analytics: UA-159361165-1
 enableTags: true
@@ -36,7 +36,7 @@ social:
     - icon: fa-stack-exchange
       link: "#"
     - icon: fa-github
-      link: "https://github.com/20Hui"
+      link: "https://www.20cent.cn"
 
 share:
   twitter_username: 20cent
