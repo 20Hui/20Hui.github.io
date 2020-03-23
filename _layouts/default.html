@@ -172,6 +172,13 @@ layout: compress
         </div>
         <!-- end /.fixed-condition -->
       </div>
+
+      <!-- Valine 评论框 start -->
+      	{% if site.valine.enable %}
+              {% include valine_comments.html %}
+        {% endif %}
+      <!-- Valine 评论框 end -->
+      
       <div class="col-sm-8 col-offset-1 main-layout">
         {{ content }}
         <footer>
