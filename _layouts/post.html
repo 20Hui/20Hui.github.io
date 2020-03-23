@@ -53,8 +53,6 @@ layout: default
     <a class="next" href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
   {% endif %}
 </div>
-<!-- Valine 评论框 start -->
-	{% if site.valine.enable %}
-        {% include valine_comments.html %}
-  {% endif %}
-<!-- Valine 评论框 end -->
+          <!-- Valine 评论框 start -->
+                  {% include valine_comments.html %}
+          <!-- Valine 评论框 end -->
