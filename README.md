@@ -36,7 +36,7 @@
 
 **a. Add new Category**
 
-All categories saved inside path of `category/`, you can see the existed categories.
+All categories saved inside path  of `category/`, you can see the existed categories.
 
 **b. Add new Posts**
 
@@ -64,7 +64,7 @@ tags: [foo, bar]                      # (custom) tags only for meta `property="a
 image: Broadcast_Mail.png             # (custom) image only for meta `property="og:image"`, save your image inside path of `static/img/posts`
 ---
 
-# your content post with markdown syntax goes here...
+# your content post with markdown syntax goes here....
 ```
 
 
